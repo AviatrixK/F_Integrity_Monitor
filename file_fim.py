@@ -1,6 +1,6 @@
 import hashlib 
 import time 
-file = "parser1.cpp"
+file = "demo.py"
 def file_hashv(path):
     with open(path, "rb") as f:
         return hashlib.md5(f.read()).hexdigest()
