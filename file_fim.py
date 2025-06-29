@@ -8,7 +8,7 @@ def file_hashv(path):
 og_hash = file_hashv(file)
 
 while True:
-    time.sleep(8)
+    time.sleep(10)
     new_hash = file_hashv(file)
     if new_hash != og_hash :
         print(f"[ALERT] {file} has been modified! ")
